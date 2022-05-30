@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 95%;
+    margin: auto;
+}
+
+#colors {
+    width: 100%;
+    text-align: center;
+}
+
+@media(max-width:480px){
+    #colors h2{
+        font-size: 1.5rem;
+    }
+}
